@@ -1,0 +1,171 @@
+
+* {
+    list-style: none;
+    scroll-behavior: smooth;
+}
+img {
+    max-width: 100%;
+}
+section {
+    width: 100%;
+    margin: 100px 0px 0px 0px;
+}
+p {
+    font-size: 20px;
+    font-weight: 500;
+
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+header {    
+    font-weight: 700;
+}
+.logo a {
+    text-decoration: none;
+    color: white;
+
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 50px;
+    text-transform: capitalize;
+    box-shadow: gray 11px 0px 23px 0px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    
+    
+}
+nav ul li {
+     margin: 0px 0px 0px 61px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(59 80 108);
+    font-weight: 700;
+    font-size: 22px;
+} 
+
+/* banner  */
+.banner {
+    text-align: center;
+
+}
+.banner h1 {
+    font-size: 65px;
+    margin: 0px;
+    color: #3b506c;
+}
+.banner span {
+    font-size: 60px;
+    color: #0c66ff;
+    text-align: center;
+}
+.banner p {
+    font-size: 20px;
+    font-weight: 400;
+}
+.banner img {
+    width: 50%;
+}
+
+ /* successfully completed  */
+ .last {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+    margin: 0px 120px;
+ }
+ .box {
+    justify-content: right;
+    text-align: right;
+    width: 49%;
+ }
+ .box h1 {
+    font-size: 45px;
+    color: #3b506c;
+ }
+ .box h1 span {
+    color: red;
+ }
+ .box p{
+    color: #3b506c;
+ }
+.successful-completed {
+
+    text-align: left;
+}
+
+/*  blog section here */
+
+.card {
+    display: flex;
+    margin: 0px 30px;
+    /* align-content: space-around; */
+    align-items: center;
+    gap: 3%;
+}
+.blog {
+    width: 30%;
+    padding: 0px 30px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 5px;
+   
+   
+}
+.blog img {
+    width: 100%;
+    height: 260px;
+    object-fit: fill;
+}
+.blog h2 {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+/*  footer section here */
+
+footer {
+    background-color: #3b506c;
+    color: white;
+    margin: 100px 0px 0px 0px;
+    min-height: 40vh;
+
+
+}
+.footer-main {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer-box {
+    width: 30%;
+}
+.footer-box h2 {
+    margin: 0;
+    color: black;
+}
+.footer-box p {
+    margin: 5px 0px;
+}
+input[type="email"] {
+    background-color: white;
+    color: black;
+    padding: 15px 4px;
+    width: 63%;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
